@@ -1,5 +1,4 @@
 'use client'
-
 import S from './Background.module.scss'
 import { useState, useEffect } from 'react'
 
