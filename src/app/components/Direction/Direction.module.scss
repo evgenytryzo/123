@@ -1,0 +1,40 @@
+@import '../../styles/index.scss';
+
+.text {
+  position: relative;
+  z-index: 7;
+  color: $color-secondary;
+  text-transform: uppercase;
+  @extend %main-font-medium;
+  margin: 10px 0 0 30px;
+  @include size-font(36px, 44px);
+  cursor: default;
+  animation: opacity 2s 0.5s forwards;
+  opacity: 0;
+
+  @keyframes opacity {
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .text {
+    margin: 10px 0 0 10px;
+    @include size-font(24px, 26px);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .text {
+    margin: 5px 0 0 5px;
+    @include size-font(16px, 18px);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .text {
+    @include size-font(44px, 46px);
+  }
+}

@@ -1,0 +1,26 @@
+@import '../../styles/index.scss';
+
+.menuItem {
+  color: $color-primary;
+  cursor: pointer;
+  text-transform: uppercase;
+  @include transparent-hover;
+  @include size-font(16px, 19.5px);
+  @extend %main-font-medium;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  min-width: 79px;
+}
+
+.button {
+  color: $color-success;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: $color-primary;
+  cursor: pointer;
+  @include size-font(16px, 19.5px);
+  @include transparent-hover-button;
+  @extend %main-font-semibold;
+}

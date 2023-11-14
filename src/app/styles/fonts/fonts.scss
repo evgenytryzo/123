@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: local('Montserrat Regular'),
+    url('./montserrat-regular.ttf') format('ttf'),
+    url('./montserrat-regular.woff') format('woff'),
+    url('./montserrat-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: local('montserrat Medium'), url('./montserrat-Medium.ttf') format('ttf'),
+    url('./montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Semi Bold';
+  src: local('Montserrat Semi Bold'),
+    url('./montserrat-semibold.ttf') format('ttf'),
+    url('./montserrat-semibold.woff') format('woff'),
+    url('./montserrat-semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: local('Montserrat Bold'), url('./montserrat-bold.ttf') format('ttf'),
+    url('./montserrat-bold.woff') format('woff'),
+    url('./montserrat-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src: local('Bebas Neue Bold'), url('./bebas-neue-bold.woff2') format('woff2'),
+    url('./bebas-neue-bold.woff') format('woff'),
+    url('./bebas-neue-bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: bold;
+}

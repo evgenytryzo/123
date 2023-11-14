@@ -1,0 +1,39 @@
+.background {
+  position: absolute;
+  z-index: -10;
+  min-width: 160%;
+  min-height: 100%;
+  background-image: url('../../../../public/background.svg');
+  left: -300px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  filter: brightness(0.7);
+}
+
+.backgroundLeft {
+  transform: translateX(-300px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.backgroundRight {
+  transform: translateX(300px);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+  .background {
+    min-width: 200%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .background {
+    min-width: 250%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .background {
+    min-width: 350%;
+  }
+}

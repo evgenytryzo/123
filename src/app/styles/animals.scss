@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+@mixin transparent-transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+@mixin transparent-hover {
+  transition: color 0.1s ease-in-out;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}
+
+@mixin transparent-hover-button {
+  transition: color 0.1s ease-in-out;
+
+  &:hover {
+    color: $color-primary;
+    background-color: $color-secondary;
+  }
+}
+
+@mixin transparent-hover-button-popup {
+  transition: color 0.1s ease-in-out;
+
+  &:hover {
+    color: $color-success;
+    background-color: $color-secondary;
+  }
+}
