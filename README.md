@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Test task for true.code
 
-## Getting Started
+## About
 
-First, run the development server:
+This project is a test task for a digital company - True.Code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+It is developed using cutting-edge technologies such as Next.js, Docker, Yarn, React, SCSS.
+
+[Link to figma template](https://www.figma.com/file/AzinGlC4y4sHg5Lc8FwI4l/true.code-%2F-%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5?type=design&node-id=2%3A285&mode=dev)
+
+[Link to production project - ](https://www.figma.com/file/AzinGlC4y4sHg5Lc8FwI4l/true.code-%2F-%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5?type=design&node-id=2%3A285&mode=dev)https://test-task-true-code.vercel.app/
+
+## Difficulties I encountered
+
+- Difficulty with working with format blocks: position: absolute. And their adaptation.
+- Interesting, but not easy work with backgrounds in Next.js
+- Tightening work with adaptation of Header component.
+
+## Started
+
+- ### First, copy the repository:
+
+```
+git clone git@github.com:evgenytryzo/test-task-true-code.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ### Install dependencies using Yarn:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- ### Then run the command on the command line:
 
-## Learn More
+```
+docker compose up
+```
 
-To learn more about Next.js, take a look at the following resources:
+With this command, you will launch the container with the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For installing all dependencies type `yarn`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> If you get some error delete `.node_modules` and try again **or** create an issue about that
 
-## Deploy on Vercel
+- ### Open a browser window and navigate to a local host with port 4000:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+http://localhost:4000/
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open [http://localhost:4000](http://localhost:4000) with browser to see the result.
